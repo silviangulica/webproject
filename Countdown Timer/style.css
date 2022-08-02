@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,39 @@
 body {
     background-image: url("https://images.unsplash.com/photo-1659388747848-ea5f10478bdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
     background-size:cover;
-    font-family: "Fira Code Medium";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
     margin: 0;
+    color:white;
+}
+
+h1 {
+    -webkit-text-stroke: 1px black;
+    font-size: 70px;
+    margin-top: -50px;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    -webkit-text-stroke: 1px black;
+}
+
+.countdown-el {
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+.countdown-el > span {
+    font-size: 1.5rem;
 }
